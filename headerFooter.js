@@ -46,9 +46,10 @@ document.body.insertBefore(headerDiv, body.firstChild);
 const menuDiv = document.createElement('div');
 menuDiv.setAttribute("class","menu");
 
-// Create langDiv, set its class and append it to menuDIv
+// Create langDiv, set its class, add its text and append it to menuDIv
 const langDiv = document.createElement('div');
 langDiv.setAttribute("class","lang");
+langDiv.textContent="FR";
 menuDiv.appendChild(langDiv);
 
 // Create menuTabsDiv and sets its class

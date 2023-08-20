@@ -1,0 +1,34 @@
+@import "styles_general.css";
+
+.content{
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.content_button{
+    display: grid;
+    justify-content: end;
+}
+
+button{
+    background-color: var(--blue4);
+    color: var(--blue1);
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 20px;
+    width: max-content;    
+}
+
+.content_video{
+    margin-top: 5rem;
+    display: grid;
+    justify-content: center;
+}
+
+video{
+    width: max(200px,33vw);
+    height: max(100px,45vh);
+}
