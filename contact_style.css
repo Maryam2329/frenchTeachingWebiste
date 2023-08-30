@@ -1,0 +1,53 @@
+.contact_content{
+    border: dashed 1px var(--blue4);
+    display: grid;
+    grid-auto-flow: row;
+    width: fit-content;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.contact_form{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1rem;
+}
+
+.row{
+    display: grid;
+    grid-auto-flow: column;
+    gap : 3rem;
+    justify-content: start;
+    border: solid 1px red;
+}
+
+input, textarea{
+    background-color: var(--blue3);
+    color: var(--blue1);
+    border: none;
+    font-size: 1.8rem;
+}
+
+.first input, label{
+    width: 7vw;
+}
+
+.second {
+    grid-template-columns: 7vw 100%;
+}
+
+.contact_button{
+    justify-self: center;
+}
+
+button{
+    background-color: var(--blue4);
+    color: var(--blue1);
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 20px;
+    width: max-content;    
+}

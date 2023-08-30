@@ -58,7 +58,7 @@ menuTabsDiv.setAttribute("class","menu-tabs");
 
 // Create all the tabs with a for loop
 const menuText=["Accueil","Qui je suis ?","Ma méthode","Tarifs","Cours d'essai","Contact"];
-const menuLink=["index.html","quiJeSuis.html","maMethode.html","tarifs.html","coursdEssai.html","index.html"]
+const menuLink=["index.html","quiJeSuis.html","maMethode.html","tarifs.html","coursdEssai.html","contact.html"]
 for(i=0;i<menuText.length;i++){
     // Create the tabDiv and set its class
     const tabDiv = document.createElement('div');
