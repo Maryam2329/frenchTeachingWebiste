@@ -1,0 +1,40 @@
+.subcontent{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: end;
+    padding-right: 5rem;
+}
+
+.subcontent_table{
+    display: grid;
+    grid-auto-flow: column;
+    width: fit-content;
+}
+
+.table_column{
+    display: grid;
+    grid-auto-flow: row;
+    width: fit-content;
+}
+
+.firstTitle, .secondTitle, .data{
+    border: solid 1px var(--blue4);
+    padding: 1rem;
+}
+
+.firstTitle{
+    background-color: var(--blue5);
+    color: var(--blue1);
+    font-weight: bold;
+}
+
+.secondTitle{
+    background-color: var(--blue3);
+    color: var(--blue4);
+    font-weight: bold;
+}
+
+.data{
+    background-color: var(--blue2);
+    color: var(--blue4);
+}

@@ -32,3 +32,62 @@ video{
     width: max(200px,33vw);
     height: max(100px,45vh);
 }
+
+.newsletter{
+    margin-top: 5rem;
+    display: grid;
+    grid-auto-flow: column;
+    border: dashed 4px var(--blue4);
+    justify-self: center;
+}
+
+.newsletter_title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: fit-content;
+    margin-right: 2rem;
+}
+
+.newsletter_form{
+    justify-self: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.firstrow{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.secondrow{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+label{
+    margin-left: 1vw;
+}
+
+.firstrow input,
+.firstrow label,
+.secondrow label{
+    width: 10vw; 
+}
+.secondrow input{
+    width: 22vw; /*sum of the above*/
+}
+
+.newsletter_form input{
+    background-color: var(--blue3);
+    color: var(--blue1);
+    border: none;
+    font-size: 1.8rem;
+}
+
+.newsletter_button{
+    margin: 2rem;
+    justify-self: center;
+    align-self: center;
+}

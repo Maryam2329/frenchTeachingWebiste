@@ -3,6 +3,7 @@
     --blue2: #a0b9cf;
     --blue3: #84a5c1;
     --blue4: #3c5a81;
+    --blue5 : #58789d;
 }
 
 body{
@@ -10,9 +11,10 @@ body{
     padding: 0;
     background-color: var(--blue1);
     color: var(--blue4);
+    font-size: 1.8rem;
     display: grid;
     grid-auto-flow: row;
-    font-size: 1.8rem;
+    
 }
 
 .header{
@@ -28,6 +30,7 @@ body{
     /*background-position-y: bottom;*/
     /*height: max-content;*/
     margin-bottom: 1rem;
+    height: max-content;
 }
 
 .big,
@@ -63,6 +66,7 @@ body{
     display: grid;
     grid-auto-flow: column;
     padding: 1rem;
+    height: max-content;
 }
 
 .menu-tabs{
@@ -85,6 +89,7 @@ body{
     bottom: 0vh;
     width: 100vw;
     margin-top: 3rem;
+    height: max-content;
 }
 
 h1{
@@ -103,4 +108,6 @@ p{
     margin-left: 6rem;
     margin-right: 6rem;
     margin-top: 3rem;
+    height: auto;
+    justify-self: stretch;
 }

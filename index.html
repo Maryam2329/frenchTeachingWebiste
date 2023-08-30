@@ -1,16 +1,16 @@
 <!DOCTYPE html>
- <html lang="en">
-     <head>
-         <meta charset="UTF-8">
-         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="stylesheet" href="../reset_css/reset_style.css">
-         <link rel="stylesheet" href="styles_general.css">
-         <link rel="stylesheet" href="index_style.css">
-         <script src="headerFooter.js" defer></script>
-         <title>Apprends le français avec Maryam</title>
-     </head>
-     <body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../reset_css/reset_style.css">
+        <link rel="stylesheet" href="styles_general.css">
+        <link rel="stylesheet" href="index_style.css">
+        <script src="headerFooter.js" defer></script>
+        <title>Apprends le français avec Maryam</title>
+    </head>
+    <body>
         <div class="content">
             <div class="content_text">
                 <h1>Accueil</h1>
@@ -35,6 +35,24 @@
                     Your browser does not support the video tag.
                 </video>
             </div>
+            <div class="newsletter">
+                <div class="newsletter_title">Newsletter</div>
+                <div class="newsletter_form">
+                    <form>
+                        <div class="firstrow">
+                            <label for="NLfirstname">Prénom* </label>
+                            <input type="text" id="NLfirstname" name="NLfirstname">
+                            <label for="NLlastname">Nom* </label>
+                            <input type="text" id="NLlastname" name="NLlastname"><br>
+                        </div>
+                        <div class="secondrow">
+                            <label for="NLuseremail">Email* </label>
+                            <input type="email" id="NLuseremail" name="NLuseremail" placeholder="nom@example.com">
+                        </div>
+                    </form>
+                </div>
+                <div class="newsletter_button"><button>S'abonner à la Newsletter</button></div>
+            </div>
         </div>
     </body>
- </html>
+</html>
