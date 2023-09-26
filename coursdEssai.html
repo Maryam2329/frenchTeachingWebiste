@@ -1,1 +1,66 @@
-kjhbkhj
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../reset_css/reset_style.css">
+        <link rel="stylesheet" href="styles_general.css">
+        <link rel="stylesheet" href="coursdEssai_style.css">
+        <script src="headerFooter.js" defer></script>
+        <title>Apprends le français avec Maryam</title>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Tout commence avec un cours d'essai !</h1>
+            <p>Si ma méthode te parle, lance toi et réserve un cours d'essai juste au dessous !</p>
+            <form>
+                <div class="subForm1">
+                    <label for="CEfirstname">Prénom</label>
+                    <input type="text" id="CEfirstname" name="CEfirstname">
+                    <label for="CElastname">Nom</label>
+                    <input type="text" id="CElastname" name="CElastname">
+                    <label for="CEuseremail">Email</label>
+                    <input class=longZone type="email" id="CEuseremail" name="CEuseremail" placeholder="nom@example.com">
+                    <label class="midLong" for="CEoralLevel">Niveau de francais oral</label>
+                    <div class="levels">
+                        <input type="checkbox" id="a1" name="a1" value="A1">
+                        <label for="a1">A1</label>
+                        <input type="checkbox" id="a2" name="a2" value="A2">
+                        <label for="a1">A2</label>
+                        <input type="checkbox" id="b1" name="b1" value="B1">
+                        <label for="b1">B1</label>
+                        <input type="checkbox" id="b2" name="b2" value="B2">
+                        <label for="b1">B2</label>
+                    </div>
+                    <label class="midLong" for="CEwrittenLevel">Niveau de francais ecrit</label>
+                    <div class="levels">
+                        <input type="checkbox" id="a1" name="a1" value="A1">
+                        <label for="a1">A1</label>
+                        <input type="checkbox" id="a2" name="a2" value="A2">
+                        <label for="a1">A2</label>
+                        <input type="checkbox" id="b1" name="b1" value="B1">
+                        <label for="b1">B1</label>
+                        <input type="checkbox" id="b2" name="b2" value="B2">
+                        <label for="b1">B2</label>
+                    </div>
+                    <label for="CEobjectifs">Objectif(s) </label>
+                    <textarea class=longZone id="CEobjectifs" name="CEobjectifs">Tes objectifs &#128512;.</textarea><br>
+                </div>
+                <div class="subForm2">
+                    <div>
+                        <label class="schedule" for="CEschedule">Selectionner un horaire</label>
+                        <input type="text" id="CEschedule" name="CEschedule">
+                    </div>
+                    <div>
+                        <label for="CEpayment">Moyen de paiement</label>
+                        <div class="buttonLine">
+                            <button>Carte bancaire</button>
+                            <button>Paypal</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

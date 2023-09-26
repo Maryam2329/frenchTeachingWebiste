@@ -3,7 +3,7 @@
     --blue2: #a0b9cf;
     --blue3: #84a5c1;
     --blue4: #3c5a81;
-    --blue5 : #58789d;
+    --blue5: #58789d;
 }
 
 body{
@@ -14,7 +14,6 @@ body{
     font-size: 1.8rem;
     display: grid;
     grid-auto-flow: row;
-    
 }
 
 .header{

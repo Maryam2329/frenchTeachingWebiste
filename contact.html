@@ -14,25 +14,17 @@
         <div class="content">
             <h1>Me contacter</h1>
             <div class="subcontent">
-                <div class="contact_content">
-                    <form class="contact_form">
-                        <div class="first row">
-                            <label for="QAfirstname">Prénom* </label>
-                            <input type="text" id="QAfirstname" name="QAfirstname">
-                            <label for="QAlastname">Nom* </label>
-                            <input type="text" id="QAlastname" name="QAlastname"><br>
-                        </div>
-                        <div class="second row">
-                            <label for="QAuseremail">Email* </label>
-                            <input type="email" id="QAuseremail" name="QAuseremail" placeholder="nom@example.com">
-                        </div>
-                        <div class="third row">
-                            <label for="QAquestions">Question(s)* </label>
-                            <textarea id="QAquestions" name="QAquestions">Pour les questions c'est ici &#128512;.</textarea>
-                        </div>
-                    </form>
-                    <div class="contact_button"><button>Contact</button></div>
-                </div>
+                <form class="contact_form contact_content">
+                    <label class="firstCol" for="QAfirstname">Prénom* </label>
+                    <input class="secondColShort" type="text" id="QAfirstname" name="QAfirstname">
+                    <label class="thirdCol" for="QAlastname">Nom* </label>
+                    <input class="quarterCol" type="text" id="QAlastname" name="QAlastname">
+                    <label class="firstCol" for="QAuseremail">Email* </label>
+                    <input class="secondColLong" type="email" id="QAuseremail" name="QAuseremail" placeholder="nom@example.com">
+                    <label class="firstCol" for="QAquestions">Question(s)* </label>
+                    <textarea class="secondColLong" id="QAquestions" name="QAquestions">Pour les questions c'est ici &#128512;.</textarea><br>
+                    <button class="contact_button">Contact</button>
+                </form>
                 <div>
                     Si tu as la moindre question, n'hésite pas à me laisser un message via ce formulaire, j'y répondrai
                     avec plaisir &#128512;.

@@ -1,39 +1,54 @@
-.contact_content{
-    border: dashed 1px var(--blue4);
+@import "styles_general.css";
+
+.subcontent{
     display: grid;
-    grid-auto-flow: row;
-    width: fit-content;
-    padding: 1rem;
-    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10vw;
 }
 
 .contact_form{
     display: grid;
-    grid-auto-flow: row;
+    width: fit-content;
     gap: 1rem;
+    padding: 1rem;
+    border: dashed 1px var(--blue4);
+    grid-template-columns: repeat(4,10vw);
+    grid-template-rows: repeat(2,fit-content) 5fr 1fr;
 }
 
-.row{
-    display: grid;
-    grid-auto-flow: column;
-    gap : 3rem;
-    justify-content: start;
-    border: solid 1px red;
+.firstCol{
+    grid-column: 1/2;
 }
 
-input, textarea{
+.secondColShort{
+    grid-column: 2/3;
+}
+
+.secondColLong{
+    grid-column: 2/5;
+}
+
+.thirdCol{
+    grid-column: 3/4;
+}
+
+.quarterCol{
+    grid-column: 4/5;
+}
+
+input .secondColLong{
+    grid-row: 2/3;
+}
+
+textarea{
+    grid-row: 3/4;
+}
+
+::placeholder, input, textarea{
     background-color: var(--blue3);
     color: var(--blue1);
     border: none;
-    font-size: 1.8rem;
-}
-
-.first input, label{
-    width: 7vw;
-}
-
-.second {
-    grid-template-columns: 7vw 100%;
+    font-size: 1.6rem;
 }
 
 .contact_button{
@@ -49,5 +64,7 @@ button{
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
     border-radius: 20px;
-    width: max-content;    
+    width: max-content;  
+    grid-row: 4/5;
+    grid-column: 4/5;  
 }
