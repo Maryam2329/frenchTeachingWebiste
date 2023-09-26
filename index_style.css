@@ -28,11 +28,6 @@ button{
     justify-content: center;
 }
 
-video{
-    width: max(200px,33vw);
-    height: max(100px,45vh);
-}
-
 .newsletter{
     margin-top: 5rem;
     display: grid;
